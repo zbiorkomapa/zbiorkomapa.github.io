@@ -1,0 +1,4425 @@
+{
+  "routes": [
+    {
+      "route_id": "1",
+      "short_name": "1",
+      "color": "D0006F",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 63,
+      "endpoints": [
+        "Franowo",
+        "Junikowo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "3",
+      "short_name": "3",
+      "color": "8E364C",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 73,
+      "endpoints": [
+        "Błażeja",
+        "Unii Lubelskiej"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "4",
+      "short_name": "4",
+      "color": "115740",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 28,
+      "endpoints": [
+        "Małe Garbary",
+        "Połabska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "5",
+      "short_name": "5",
+      "color": "6CC24A",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 44,
+      "endpoints": [
+        "Górczyn PKM",
+        "Zawady"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "6",
+      "short_name": "6",
+      "color": "009639",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 65,
+      "endpoints": [
+        "Junikowo",
+        "Miłostowo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "7",
+      "short_name": "7",
+      "color": "003594",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 57,
+      "endpoints": [
+        "Miłostowo",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "8",
+      "short_name": "8",
+      "color": "DA291C",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 45,
+      "endpoints": [
+        "Miłostowo",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "9",
+      "short_name": "9",
+      "color": "FF671F",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 65,
+      "endpoints": [
+        "Ogrody",
+        "Piątkowska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "10",
+      "short_name": "10",
+      "color": "F1B434",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 57,
+      "endpoints": [
+        "Błażeja",
+        "Dębiec PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "11",
+      "short_name": "11",
+      "color": "3CDBC0",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 56,
+      "endpoints": [
+        "Piątkowska",
+        "Unii Lubelskiej"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "12",
+      "short_name": "12",
+      "color": "CBA3D8",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 50,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Starołęka PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "13",
+      "short_name": "13",
+      "color": "AD841F",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 68,
+      "endpoints": [
+        "Junikowo",
+        "Starołęka PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "14",
+      "short_name": "14",
+      "color": "946037",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 30,
+      "endpoints": [
+        "Górczyn PKM",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "15",
+      "short_name": "15",
+      "color": "A2AAAD",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 44,
+      "endpoints": [
+        "Junikowo",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "16",
+      "short_name": "16",
+      "color": "440099",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 50,
+      "endpoints": [
+        "Franowo",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "17",
+      "short_name": "17",
+      "color": "004F71",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 30,
+      "endpoints": [
+        "Górczyn PKM",
+        "Małe Garbary"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "18",
+      "short_name": "18",
+      "color": "FEDB00",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 50,
+      "endpoints": [
+        "Franowo",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "92",
+      "short_name": "92",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 48,
+      "endpoints": [
+        "Dębiec PKM",
+        "Pl. Wielkopolski"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "97",
+      "short_name": "97",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 40,
+      "endpoints": [
+        "Starołęka PKM",
+        "Zawady"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "121",
+      "short_name": "121",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 1,
+      "total_stops": 6,
+      "endpoints": [
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "122",
+      "short_name": "122",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 1,
+      "total_stops": 17,
+      "endpoints": [
+        "Cmentarna",
+        "Junikowo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "123",
+      "short_name": "123",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 22,
+      "endpoints": [
+        "Krzesiny",
+        "Starołęka PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "124",
+      "short_name": "124",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 21,
+      "endpoints": [
+        "Instytut Technologiczno-Przyrodniczy",
+        "Safony"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "125",
+      "short_name": "125",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 4,
+      "total_stops": 100,
+      "endpoints": [
+        "Franowo",
+        "Szwedzka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "145",
+      "short_name": "145",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 28,
+      "endpoints": [
+        "Dworzec Zachodni",
+        "Kacza"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "146",
+      "short_name": "146",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 49,
+      "endpoints": [
+        "Boranta",
+        "Stary Strzeszyn"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "148",
+      "short_name": "148",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 57,
+      "endpoints": [
+        "Poznań Główny",
+        "Port Lotniczy Ławica"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "149",
+      "short_name": "149",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 40,
+      "endpoints": [
+        "Dębiec PKM",
+        "Górczyn PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "151",
+      "short_name": "151",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 3,
+      "total_stops": 88,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Kurpińskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "152",
+      "short_name": "152",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 43,
+      "endpoints": [
+        "Darzybór",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "153",
+      "short_name": "153",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 57,
+      "endpoints": [
+        "Starołęka PKM",
+        "Sypniewo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "154",
+      "short_name": "154",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Rondo Rataje",
+        "Spławie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "156",
+      "short_name": "156",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 27,
+      "endpoints": [
+        "Krzyżowniki",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "157",
+      "short_name": "157",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Mogileńska",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "158",
+      "short_name": "158",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 34,
+      "endpoints": [
+        "Starołęka PKM",
+        "Sypniewo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "159",
+      "short_name": "159",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 33,
+      "endpoints": [
+        "Port Lotniczy Ławica",
+        "Poznań Główny"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "160",
+      "short_name": "160",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 47,
+      "endpoints": [
+        "Garbary PKM",
+        "Stary Strzeszyn"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "162",
+      "short_name": "162",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 72,
+      "endpoints": [
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "163",
+      "short_name": "163",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 43,
+      "endpoints": [
+        "Garbary PKM",
+        "Górczyn PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "164",
+      "short_name": "164",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 63,
+      "endpoints": [
+        "Kacza",
+        "Puszkina"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "166",
+      "short_name": "166",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 49,
+      "endpoints": [
+        "Rondo Rataje",
+        "Zieliniec"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "167",
+      "short_name": "167",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 49,
+      "endpoints": [
+        "Radojewo",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "168",
+      "short_name": "168",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 44,
+      "endpoints": [
+        "Poznań Główny",
+        "Strzeszyn PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "169",
+      "short_name": "169",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 58,
+      "endpoints": [
+        "Łużycka",
+        "Os. Kopernika"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "170",
+      "short_name": "170",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Puszkina",
+        "Połabska",
+        "Rondo Solidarności"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "171",
+      "short_name": "171",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 60,
+      "endpoints": [
+        "Os. Dębina",
+        "Os. Wichrowe Wzgórze"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "173",
+      "short_name": "173",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 28,
+      "endpoints": [
+        "Janikowo",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "174",
+      "short_name": "174",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 74,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Unii Lubelskiej"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "175",
+      "short_name": "175",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 27,
+      "endpoints": [
+        "Dębiec PKM",
+        "Górczyn PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "176",
+      "short_name": "176",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Garbary PKM",
+        "Os. Dębina"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "177",
+      "short_name": "177",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 48,
+      "endpoints": [
+        "Junikowo",
+        "Rondo Kaponiera",
+        "Bałtyk"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "178",
+      "short_name": "178",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 46,
+      "endpoints": [
+        "Rondo Śródka",
+        "Szarych Szeregów"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "179",
+      "short_name": "179",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Dębiec PKM",
+        "Kacza"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "180",
+      "short_name": "180",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Górczyn PKM",
+        "Sycowska Centrum Handlowe"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "181",
+      "short_name": "181",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Krzywoustego",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "182",
+      "short_name": "182",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 53,
+      "endpoints": [
+        "Górczyn PKM",
+        "Os. Wichrowe Wzgórze"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "183",
+      "short_name": "183",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 59,
+      "endpoints": [
+        "Rondo Śródka",
+        "Szarych Szeregów"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "184",
+      "short_name": "184",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 60,
+      "endpoints": [
+        "Rondo Rataje",
+        "Termy Maltańskie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "185",
+      "short_name": "185",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 55,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "186",
+      "short_name": "186",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 44,
+      "endpoints": [
+        "Ogrody",
+        "Podjazdowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "188",
+      "short_name": "188",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 51,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Umultowo Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "189",
+      "short_name": "189",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 29,
+      "endpoints": [
+        "Starołęka PKM",
+        "Unii Lubelskiej"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "190",
+      "short_name": "190",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 59,
+      "endpoints": [
+        "Krzyżowa Szpital",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "191",
+      "short_name": "191",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 67,
+      "endpoints": [
+        "Os. Kopernika",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "193",
+      "short_name": "193",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 70,
+      "endpoints": [
+        "Górczyn PKM",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "194",
+      "short_name": "194",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 26,
+      "endpoints": [
+        "Starołęka PKM",
+        "Starołęka Wielka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "196",
+      "short_name": "196",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 74,
+      "endpoints": [
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "198",
+      "short_name": "198",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 17,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "UAM Os. Różany Potok"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "201",
+      "short_name": "201",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 64,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Unii Lubelskiej"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "202",
+      "short_name": "202",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "TRAM",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 50,
+      "endpoints": [
+        "Franowo",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "212",
+      "short_name": "212",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 70,
+      "endpoints": [
+        "Kacza",
+        "Szwajcarska Szpital"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "213",
+      "short_name": "213",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 61,
+      "endpoints": [
+        "Dębiec PKM",
+        "Mogileńska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "214",
+      "short_name": "214",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 85,
+      "endpoints": [
+        "Junikowo",
+        "Radojewo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "215",
+      "short_name": "215",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 82,
+      "endpoints": [
+        "Os. Dębina",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "216",
+      "short_name": "216",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 1,
+      "total_stops": 57,
+      "endpoints": [
+        "Poznań Główny"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "217",
+      "short_name": "217",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 57,
+      "endpoints": [
+        "Główna",
+        "Starołęka PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "218",
+      "short_name": "218",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 93,
+      "endpoints": [
+        "Franowo",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "219",
+      "short_name": "219",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Usług Komunikacyjnych ROKBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 40,
+      "endpoints": [
+        "Poznań Główny",
+        "Wichrowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "220",
+      "short_name": "220",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 91,
+      "endpoints": [
+        "Garbary PKM",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "221",
+      "short_name": "221",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 67,
+      "endpoints": [
+        "Garbary PKM",
+        "Sypniewo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "222",
+      "short_name": "222",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 106,
+      "endpoints": [
+        "Mogileńska",
+        "Port Lotniczy Ławica"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "223",
+      "short_name": "223",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 50,
+      "endpoints": [
+        "Kacza",
+        "Mogileńska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "224",
+      "short_name": "224",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 73,
+      "endpoints": [
+        "Boranta",
+        "Rondo Ławickich Wydm"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "226",
+      "short_name": "226",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 1,
+      "total_stops": 58,
+      "endpoints": [
+        "Poznań Główny"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "227",
+      "short_name": "227",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 35,
+      "endpoints": [
+        "Koziegłowy/Os. Leśne",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "231",
+      "short_name": "231",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Unii Lubelskiej",
+        "Wrocławska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "250",
+      "short_name": "250",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 89,
+      "endpoints": [
+        "Głuchowo/Stawna",
+        "Górczyn PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "252",
+      "short_name": "252",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 86,
+      "endpoints": [
+        "Przebędowo/Pętla",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "253",
+      "short_name": "253",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunikacji Publicznej Suchy Las Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 78,
+      "endpoints": [
+        "Chludowo/Szkoła",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "257",
+      "short_name": "257",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 58,
+      "endpoints": [
+        "Dopiewo/Dworzec Kolejowy",
+        "Junikowo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "258",
+      "short_name": "258",
+      "color": "000000",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 89,
+      "endpoints": [
+        "Poznań Główny",
+        "Tarnowo Pdg/Centrum"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "312",
+      "short_name": "312",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 70,
+      "endpoints": [
+        "Promnice/Klonowa",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "320",
+      "short_name": "320",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 38,
+      "endpoints": [
+        "Kicin/Pętla",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "321",
+      "short_name": "321",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 42,
+      "endpoints": [
+        "Kicin/Pętla",
+        "Wrzoska Szpitale"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "322",
+      "short_name": "322",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 39,
+      "endpoints": [
+        "Czerwonak/Cmentarz",
+        "Piątkowska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "323",
+      "short_name": "323",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 70,
+      "endpoints": [
+        "Rondo Śródka",
+        "Tuczno/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "341",
+      "short_name": "341",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 75,
+      "endpoints": [
+        "Przebędowo/Pętla",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "342",
+      "short_name": "342",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 81,
+      "endpoints": [
+        "Przebędowo/Pętla",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "348",
+      "short_name": "348",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 73,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Przebędowo/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "381",
+      "short_name": "381",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 17,
+      "endpoints": [
+        "M. Goślina/Mściszewska SP1",
+        "Przebędowo/Park",
+        "Zielonka/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "382",
+      "short_name": "382",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 23,
+      "endpoints": [
+        "Uchorowo/Pętla",
+        "Białężyn/Szkoła",
+        "Długa Goślina/Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "383",
+      "short_name": "383",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 12,
+      "endpoints": [
+        "Głębocko/Zacisze",
+        "Łopuchowo/Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "384",
+      "short_name": "384",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 35,
+      "endpoints": [
+        "Pławno/Pętla",
+        "M. Goślina/Szkoła",
+        "M. Goślina/Leśna"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "388",
+      "short_name": "388",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 42,
+      "endpoints": [
+        "Czerwonak/PKM",
+        "Dębogóra/Dąbrówki"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "390",
+      "short_name": "390",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "M. Goślina/Leśna",
+        "Uchorowo/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "391",
+      "short_name": "391",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 18,
+      "endpoints": [
+        "M. Goślina/PKM",
+        "Mściszewo/Górka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "392",
+      "short_name": "392",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 20,
+      "endpoints": [
+        "Owińska/PKM",
+        "Potasze/Jodłowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "393",
+      "short_name": "393",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 25,
+      "endpoints": [
+        "Łopuchówko/Pętla",
+        "M. Goślina/Leśna"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "394",
+      "short_name": "394",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 14,
+      "endpoints": [
+        "Czerwonak/PKM",
+        "Miękowo/Stokrotkowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "395",
+      "short_name": "395",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 34,
+      "endpoints": [
+        "M. Goślina/Leśna",
+        "Pławno/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "396",
+      "short_name": "396",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 53,
+      "endpoints": [
+        "Koziegłowy/Szkoła",
+        "Potasze/Jodłowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "397",
+      "short_name": "397",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Wielobranżowe TRANSKOM Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 11,
+      "endpoints": [
+        "Biedrusko/Park",
+        "Bolechowo-Os./PKM",
+        "Trzaskowo/Wieś"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "399",
+      "short_name": "399",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Miasta i Gminy Murowana Goślina",
+      "direction_count": 2,
+      "total_stops": 22,
+      "endpoints": [
+        "M. Goślina/PKM",
+        "Długa Goślina/Al. Czereśniowa",
+        "Rogoźno/Kościuszki Rondo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "400",
+      "short_name": "400",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 35,
+      "endpoints": [
+        "Rondo Śródka",
+        "Swarzędz/Os. Raczyńskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "401",
+      "short_name": "401",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 27,
+      "endpoints": [
+        "Rondo Śródka",
+        "Swarzędz/Os. Kościuszkowców"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "405",
+      "short_name": "405",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 27,
+      "endpoints": [
+        "Rondo Śródka",
+        "Swarzędz/Rynek"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "406",
+      "short_name": "406",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 30,
+      "endpoints": [
+        "Jasin/Centrum Handlowe ETC",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "407",
+      "short_name": "407",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Jasin/Rabowicka Pętla",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "412",
+      "short_name": "412",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 38,
+      "endpoints": [
+        "Rondo Śródka",
+        "Swarzędz/Węzeł Przesiadkowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "416",
+      "short_name": "416",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 30,
+      "endpoints": [
+        "Gruszczyn/Katarzyńska",
+        "Mogileńska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "425",
+      "short_name": "425",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 34,
+      "endpoints": [
+        "Franowo",
+        "Zalasewo/Os. Leśne"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "431",
+      "short_name": "431",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunalny w Kleszczewie Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 59,
+      "endpoints": [
+        "Kleszczewo/Park",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "432",
+      "short_name": "432",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunalny w Kleszczewie Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 60,
+      "endpoints": [
+        "Kleszczewo/Park",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "433",
+      "short_name": "433",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunalny w Kleszczewie Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 42,
+      "endpoints": [
+        "Gowarzewo/Czereśniowa",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "484",
+      "short_name": "484",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 29,
+      "endpoints": [
+        "Swarzędz/Węzeł Przesiadkowy",
+        "Zalasewo/Os. Leśne"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "485",
+      "short_name": "485",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Jerzykowo/pl. Piastowski",
+        "Swarzędz/Węzeł Przesiadkowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "486",
+      "short_name": "486",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 42,
+      "endpoints": [
+        "Siekierki Wielkie/Kościół",
+        "Swarzędz/Węzeł Przesiadkowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "488",
+      "short_name": "488",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunalny w Kleszczewie Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 39,
+      "endpoints": [
+        "Kleszczewo/Park",
+        "Markowice/Centrum"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "489",
+      "short_name": "489",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunalny w Kleszczewie Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 52,
+      "endpoints": [
+        "Kleszczewo/Park",
+        "Swarzędz/Węzeł Przesiadkowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "490",
+      "short_name": "490",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 17,
+      "endpoints": [
+        "Swarzędz/Węzeł Przesiadkowy",
+        "Swarzędz/Hala"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "491",
+      "short_name": "491",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 20,
+      "endpoints": [
+        "Swarzędz/Węzeł Przesiadkowy",
+        "Swarzędz/Os. Kościuszkowców",
+        "Gortatowo/Świetlica"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "492",
+      "short_name": "492",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 12,
+      "endpoints": [
+        "Kobylnica/Węzeł",
+        "Uzarzewo/Pętla (Pałac)"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "493",
+      "short_name": "493",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 18,
+      "endpoints": [
+        "Karłowice/Pętla",
+        "Kobylnica/Węzeł"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "494",
+      "short_name": "494",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 42,
+      "endpoints": [
+        "Garby Małe/Pętla",
+        "Kobylnica/Stacja"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "495",
+      "short_name": "495",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 30,
+      "endpoints": [
+        "Rabowice/Składowisko",
+        "Swarzędz/Os. Raczyńskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "497",
+      "short_name": "497",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Kruszewnia/Pętla",
+        "Zalasewo/Os. Leśne"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "498",
+      "short_name": "498",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 26,
+      "endpoints": [
+        "Kruszewnia/Pętla",
+        "Swarzędz/Węzeł Przesiadkowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "499",
+      "short_name": "499",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Swarzędzkie Przedsiębiorstwo Komunalne Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 35,
+      "endpoints": [
+        "Swarzędz/Os. Kościuszkowców",
+        "Zalasewo/Os. Leśne"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "501",
+      "short_name": "501",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 35,
+      "endpoints": [
+        "Błażejewo/Os. Przylesie",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "502",
+      "short_name": "502",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 69,
+      "endpoints": [
+        "Błażejewo/Os. Przylesie",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "503",
+      "short_name": "503",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Rondo Rataje",
+        "Szczodrzykowo/Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "511",
+      "short_name": "511",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 79,
+      "endpoints": [
+        "Kamionki/Klonowa",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "512",
+      "short_name": "512",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 77,
+      "endpoints": [
+        "Borówiec/Szkoła",
+        "Rondo Rataje"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "513",
+      "short_name": "513",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Kórnik/Bnin Osiedle",
+        "Krzesiny"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "527",
+      "short_name": "527",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 65,
+      "endpoints": [
+        "Kamionki/Pętla",
+        "Starołęka PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "560",
+      "short_name": "560",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 61,
+      "endpoints": [
+        "Rondo Rataje",
+        "Zaniemyśl/Kościół"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "561",
+      "short_name": "561",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 1,
+      "total_stops": 24,
+      "endpoints": [
+        "Rondo Rataje",
+        "Zaniemyśl/Kościół"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "580",
+      "short_name": "580",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 5,
+      "total_stops": 105,
+      "endpoints": [
+        "Kórnik/Pl. Niepodległości",
+        "Kórnik/Szkoła nr 1",
+        "Kórnik/Bnin Biernacka",
+        "Kórnik/Bnin Błażejewska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "582",
+      "short_name": "582",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 24,
+      "endpoints": [
+        "Środa Wielkopolska/Dworzec PKS",
+        "Kórnik/Pl. Niepodległości",
+        "Kórnik/Szkoła nr 1"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "590",
+      "short_name": "590",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 26,
+      "endpoints": [
+        "Szczodrzykowo/Kórnik PKM",
+        "Kórnik/Pl. Niepodległości",
+        "Błażejewo/Os. Przylesie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "591",
+      "short_name": "591",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 18,
+      "endpoints": [
+        "Kromolice/Pętla",
+        "Szczodrzykowo/Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "592",
+      "short_name": "592",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 16,
+      "endpoints": [
+        "Gądki/Kwiatowa",
+        "Szczodrzykowo/Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "593",
+      "short_name": "593",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 23,
+      "endpoints": [
+        "Borówiec/Dębowa",
+        "Kamionki/Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "594",
+      "short_name": "594",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 23,
+      "endpoints": [
+        "Kamionki/Szkoła",
+        "Szczytniki/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "595",
+      "short_name": "595",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 5,
+      "total_stops": 118,
+      "endpoints": [
+        "Kórnik/Szkoła nr 1",
+        "Konarskie/Skrzyżowanie",
+        "Kórnik/Bnin Osiedle",
+        "Czmoń/Lipowa",
+        "Dworzyska/",
+        "Kórnik/Pl. Niepodległości"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "596",
+      "short_name": "596",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 15,
+      "endpoints": [
+        "Czołowo/Wieś",
+        "Kórnik/Pl. Niepodległości"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "598",
+      "short_name": "598",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 33,
+      "endpoints": [
+        "Czmoń/Świerkowa",
+        "Kórnik/Reja"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "599",
+      "short_name": "599",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Kórnickie Przedsiębiorstwo Autobusowe KOMBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Kórnik/Pl. Niepodległości",
+        "Szczytniki/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "602",
+      "short_name": "602",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 23,
+      "endpoints": [
+        "Dębiec PKM",
+        "Łęczyca/Dworcowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "603",
+      "short_name": "603",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 46,
+      "endpoints": [
+        "Garbary PKM",
+        "Łęczyca/Dworcowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "610",
+      "short_name": "610",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 63,
+      "endpoints": [
+        "Dębiec PKM",
+        "Górczyn PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "611",
+      "short_name": "611",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 28,
+      "endpoints": [
+        "Dębiec PKM",
+        "Sycowska Centrum Handlowe"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "614",
+      "short_name": "614",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 56,
+      "endpoints": [
+        "Górczyn PKM",
+        "Łęczyca/Dworcowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "616",
+      "short_name": "616",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 29,
+      "endpoints": [
+        "Górczyn PKM",
+        "Luboń/Żabikowo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "651",
+      "short_name": "651",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 55,
+      "endpoints": [
+        "Dębiec PKM",
+        "Mosina/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "690",
+      "short_name": "690",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Transportowe Translub Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 60,
+      "endpoints": [
+        "Luboń/Kręta",
+        "Łęczyca/Dworcowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "691",
+      "short_name": "691",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych sp. z o.o. w Mosinie",
+      "direction_count": 2,
+      "total_stops": 30,
+      "endpoints": [
+        "Bolesławiec/Wlkp. Indyk",
+        "Mosina/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "692",
+      "short_name": "692",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych sp. z o.o. w Mosinie",
+      "direction_count": 2,
+      "total_stops": 17,
+      "endpoints": [
+        "Dymaczewo Nowe/Wspólna",
+        "Mosina/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "693",
+      "short_name": "693",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych sp. z o.o. w Mosinie",
+      "direction_count": 2,
+      "total_stops": 12,
+      "endpoints": [
+        "Krajkowo/Pętla",
+        "Mosina/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "694",
+      "short_name": "694",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych sp. z o.o. w Mosinie",
+      "direction_count": 1,
+      "total_stops": 11,
+      "endpoints": [
+        "Mosina/Dworzec Kolejowy",
+        "Mosina/Śremska/GS"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "698",
+      "short_name": "698",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych sp. z o.o. w Mosinie",
+      "direction_count": 2,
+      "total_stops": 21,
+      "endpoints": [
+        "Mosina/Dworzec Kolejowy",
+        "Radzewice/Długa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "699",
+      "short_name": "699",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych sp. z o.o. w Mosinie",
+      "direction_count": 2,
+      "total_stops": 54,
+      "endpoints": [
+        "Kórnik/Szkoła nr 1",
+        "Mosina/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "701",
+      "short_name": "701",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 72,
+      "endpoints": [
+        "Górczyn PKM",
+        "Komorniki/Os. Kompozytorów"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "702",
+      "short_name": "702",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 53,
+      "endpoints": [
+        "Górczyn PKM",
+        "Komorniki/Os. Zielone Wzgórze"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "703",
+      "short_name": "703",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 51,
+      "endpoints": [
+        "Górczyn PKM",
+        "Konarzewo/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "704",
+      "short_name": "704",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 40,
+      "endpoints": [
+        "Górczyn PKM",
+        "Komorniki/Topolowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "707",
+      "short_name": "707",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 39,
+      "endpoints": [
+        "Górczyn PKM",
+        "Rosnówko/PKM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "710",
+      "short_name": "710",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 41,
+      "endpoints": [
+        "Górczyn PKM",
+        "Komorniki/Kolumba"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "715",
+      "short_name": "715",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 41,
+      "endpoints": [
+        "Junikowo",
+        "Komorniki/Urząd Gminy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "716",
+      "short_name": "716",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Głuchowo/Stawna",
+        "Junikowo"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "717",
+      "short_name": "717",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "Junikowo",
+        "Wołowska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "727",
+      "short_name": "727",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 35,
+      "endpoints": [
+        "Junikowo",
+        "Palędzie/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "728",
+      "short_name": "728",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 50,
+      "endpoints": [
+        "Ogrody",
+        "Palędzie/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "729",
+      "short_name": "729",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 73,
+      "endpoints": [
+        "Dopiewo/Dworzec Kolejowy",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "789",
+      "short_name": "789",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Usług Komunalnych Komorniki sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 54,
+      "endpoints": [
+        "Głuchowo/Stawna",
+        "Łęczyca/Sosnowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "790",
+      "short_name": "790",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 50,
+      "endpoints": [
+        "Dopiewo/Dworzec Kolejowy",
+        "Tarnowo Pdg/Termy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "791",
+      "short_name": "791",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 19,
+      "endpoints": [
+        "Dopiewo/Dworzec Kolejowy",
+        "Lisówki/DPS",
+        "Dopiewo/Ośrodek Zdrowia",
+        "Lisówki/Wieś"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "792",
+      "short_name": "792",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 23,
+      "endpoints": [
+        "Więckowice/Szkoła",
+        "Dopiewo/Ośrodek Zdrowia",
+        "Dopiewo/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "795",
+      "short_name": "795",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 16,
+      "endpoints": [
+        "Gołuski/Pętla",
+        "Palędzie/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "796",
+      "short_name": "796",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 23,
+      "endpoints": [
+        "Dąbrowa/Krótka",
+        "Dąbrówka/Szkoła"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "797",
+      "short_name": "797",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Dopiewo/Dworzec Kolejowy",
+        "Rondo Ławickich Wydm"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "798",
+      "short_name": "798",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 12,
+      "endpoints": [
+        "Rondo Ławickich Wydm",
+        "Skórzewo/Wiosenna"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "799",
+      "short_name": "799",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Urząd Gminy Dopiewo",
+      "direction_count": 2,
+      "total_stops": 10,
+      "endpoints": [
+        "Dopiewiec/Polarna",
+        "Palędzie/Dworzec Kolejowy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "802",
+      "short_name": "802",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 69,
+      "endpoints": [
+        "Ogrody",
+        "Tarnowo Pdg/Centrum"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "803",
+      "short_name": "803",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 62,
+      "endpoints": [
+        "Junikowo",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "804",
+      "short_name": "804",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 65,
+      "endpoints": [
+        "Ogrody",
+        "Sierosław/Działki"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "805",
+      "short_name": "805",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 58,
+      "endpoints": [
+        "Junikowo",
+        "Tarnowo Pdg/Termy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "806",
+      "short_name": "806",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 70,
+      "endpoints": [
+        "Ogrody",
+        "Tarnowo Pdg/Centrum"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "811",
+      "short_name": "811",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 54,
+      "endpoints": [
+        "Ogrody",
+        "Lusówko/Rozalin Pętla",
+        "Tarnowo Pdg/Centrum"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "812",
+      "short_name": "812",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 70,
+      "endpoints": [
+        "Grzebienisko/Pętla",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "813",
+      "short_name": "813",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 61,
+      "endpoints": [
+        "Kaźmierz/Rynek",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "821",
+      "short_name": "821",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 73,
+      "endpoints": [
+        "Kokoszczyn/Pętla",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "822",
+      "short_name": "822",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 4,
+      "total_stops": 94,
+      "endpoints": [
+        "Ogrody",
+        "Chyby/Kwiatowa",
+        "Chyby/Szkolna",
+        "Chyby/Cedrowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "825",
+      "short_name": "825",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 33,
+      "endpoints": [
+        "Góra/Pętla",
+        "Tarnowo Pdg/Liceum"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "832",
+      "short_name": "832",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Usług Komunikacyjnych ROKBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 64,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Przybroda/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "833",
+      "short_name": "833",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Usług Komunikacyjnych ROKBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 67,
+      "endpoints": [
+        "Ogrody",
+        "Starzyny/Rynkowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "835",
+      "short_name": "835",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Usług Komunikacyjnych ROKBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 69,
+      "endpoints": [
+        "Krzyszkowo/Pętla",
+        "Ogrody"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "837",
+      "short_name": "837",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Usług Komunikacyjnych ROKBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 57,
+      "endpoints": [
+        "Ogrody",
+        "Pawłowice/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "882",
+      "short_name": "882",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Usług Komunikacyjnych ROKBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 38,
+      "endpoints": [
+        "Rokietnica/Węzeł Przesiadkowy",
+        "Tarnowo Pdg/Termy"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "886",
+      "short_name": "886",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 30,
+      "endpoints": [
+        "Pólko/",
+        "Tarnowo Pdg/Centrum"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "890",
+      "short_name": "890",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Komunikacja Gminy Tarnowo Podgórne TPBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 42,
+      "endpoints": [
+        "Kokoszczyn/Pętla",
+        "Sierosław/Dworska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "893",
+      "short_name": "893",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Usług Komunikacyjnych ROKBUS Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 56,
+      "endpoints": [
+        "Kobylniki/Tarnowska",
+        "Żydowo/Pętla"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "901",
+      "short_name": "901",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunikacji Publicznej Suchy Las Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 41,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Złotniki/Osiedle"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "902",
+      "short_name": "902",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunikacji Publicznej Suchy Las Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 31,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Suchy Las/Teren Aktywnej Edukacji i Sportu"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "904",
+      "short_name": "904",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunikacji Publicznej Suchy Las Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 40,
+      "endpoints": [
+        "Os. Sobieskiego",
+        "Złotniki/Wieś"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "905",
+      "short_name": "905",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunikacji Publicznej Suchy Las Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 79,
+      "endpoints": [
+        "Chludowo/Szkoła",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "907",
+      "short_name": "907",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Zakład Komunikacji Publicznej Suchy Las Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 64,
+      "endpoints": [
+        "Chludowo/Szkoła",
+        "Os. Sobieskiego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "911",
+      "short_name": "911",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 58,
+      "endpoints": [
+        "Biedrusko/Park",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "PKS",
+      "short_name": "PKS",
+      "color": "FFFFFF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "Przedsiębiorstwo Komunikacji Samochodowej w Poznaniu Spółka Akcyjna",
+      "direction_count": 2,
+      "total_stops": 23,
+      "endpoints": [
+        "Poznań Główny",
+        "Żabinko/"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    },
+    {
+      "route_id": "T7",
+      "short_name": "T7",
+      "color": "525252",
+      "text_color": "FFFFFF",
+      "type": "BUS",
+      "agency_name": "Miejskie Przedsiębiorstwo Komunikacyjne Sp. z o.o. w Poznaniu",
+      "direction_count": 2,
+      "total_stops": 6,
+      "endpoints": [
+        "Małe Garbary",
+        "Rondo Śródka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261122",
+        "feed_end_date": "20261205",
+        "feed_publisher_name": "ZTM Poznań",
+        "feed_publisher_url": "http://www.ztm.poznan.pl"
+      }
+    }
+  ],
+  "map_center": [
+    52.397308199861286,
+    16.91736627232467
+  ]
+}

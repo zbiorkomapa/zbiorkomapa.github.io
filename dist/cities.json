@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Poznań",
+    "slug": "poznan",
+    "audioSource": "recordings",
+    "ttsLang": "pl-PL",
+    "audioBaseUrl": "https://www.ztm.poznan.pl/pl/dla-deweloperow/getVoiceAnnouncements/?file=",
+    "audioVolume": 0.5
+  },
+  {
+    "name": "Gorzów Wielkopolski",
+    "slug": "gorzow-wielkopolski",
+    "audioSource": "tts",
+    "ttsLang": "pl-PL"
+  },
+  {
+    "name": "Nowy Tomyśl",
+    "slug": "nowy-tomysl",
+    "audioSource": "tts",
+    "ttsLang": "pl-PL"
+  }
+]

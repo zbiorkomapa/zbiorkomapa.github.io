@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "route_id": "A",
+      "short_name": "A",
+      "color": "00AEEF",
+      "text_color": "000000",
+      "type": "BUS",
+      "agency_name": "PU Zakład Gospodarki Mieszkaniowej w Nowym Tomyślu Sp. z o.o.",
+      "direction_count": 2,
+      "total_stops": 25,
+      "endpoints": [
+        "Dworzec PKP",
+        "Plac Chopina"
+      ],
+      "feed_info": {
+        "feed_start_date": "20261026",
+        "feed_end_date": "20261211",
+        "feed_publisher_name": "Daniel Mroczek",
+        "feed_publisher_url": "https://github.com/danielmroczek/gtfs-nt"
+      }
+    }
+  ],
+  "map_center": [
+    52.31648047619048,
+    16.13040761904762
+  ]
+}
