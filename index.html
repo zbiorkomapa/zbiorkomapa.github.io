@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zbiorkomapa — trasy komunikacji miejskiej</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <!-- leaflet version pinned in import map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "leaflet": "https://esm.sh/leaflet@1.9.4",
+      "@turf/turf": "https://esm.sh/@turf/turf@7",
+      "alpinejs": "https://esm.sh/alpinejs@3.15.12"
+    }
+  }
+  </script>
+  <script type="module" src="js/app.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body x-data="busApp" x-init="init()">
+
+  <!-- City selection modal -->
+  <div class="city-modal-overlay" x-show="showCityModal" x-cloak>
+    <div class="city-modal">
+      <h2>🗺️ Wybierz miasto</h2>
+      <ul class="city-list">
+        <template x-for="city in cities" :key="city.slug">
+          <li>
+            <button :class="{ active: currentCitySlug === city.slug }"
+              @click="selectCity(city.slug)">
+              <span x-text="city.name"></span>
+            </button>
+          </li>
+        </template>
+      </ul>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <div class="info-panel">
+    <div class="map-header">
+      <span class="badge-wrap">
+        <span class="route-badge" :class="badgeClass" :style="badgeStyle" x-text="shortName">-</span>
+        <!-- lucide "loader-circle" -->
+        <svg class="load-spinner" x-cloak x-show="routeInFlight || routeLoadNext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+      </span>
+      <div class="header-buttons">
+        <button class="city-selector-btn" @click="showCityModal = true" x-show="currentCityName">
+          📍 <span x-text="currentCityName"></span> ▾
+        </button>
+        <button class="help-btn" @click="showHelpModal = true">
+          ❓ Pomoc
+        </button>
+        <button class="dice-btn" @click="randomPick()" title="Losowa linia i kierunek (R)"
+          aria-label="Wylosuj linię i kierunek">
+          🎲 Losuj
+        </button>
+      </div>
+    </div>
+    <div class="panel-scroll">
+    <div class="route-controls">
+      <div class="control-group">
+        <label for="route-select">Wybierz linię:</label>
+        <select id="route-select" x-model="selectedRouteId" @change="onRouteChange()"
+          :title="routes.find(r => r.route_id === selectedRouteId)?.labelTitle ?? ''">
+          <option value="" disabled x-show="routes.length === 0">Ładowanie...</option>
+          <template x-for="route in routes" :key="route.route_id">
+            <option :value="route.route_id"
+              x-text="route.displayName">
+            </option>
+          </template>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="direction-select">Wybierz kierunek:</label>
+        <select id="direction-select" x-model.number="selectedDirectionIdx" :disabled="!currentRoute"
+          @change="onDirectionChange()">
+          <option value="" disabled x-show="!currentRoute">Wybierz linię</option>
+          <template x-for="(dir, idx) in directions" :key="idx">
+            <option :value="idx" x-text="dir.directionLabel"></option>
+          </template>
+        </select>
+      </div>
+    </div>
+    <div class="tabs">
+      <input type="radio" name="panel-tab" id="tab-info" checked>
+      <input type="radio" name="panel-tab" id="tab-config">
+      <div class="tab-labels">
+        <label for="tab-info">Informacje</label>
+        <label for="tab-config">Konfiguracja</label>
+      </div>
+      <div class="route-info tab-panel" data-tab="info" x-show="currentDirection">
+        <strong>Trasa:</strong> <span x-text="routeName">-</span><br>
+        <strong>Długość trasy:</strong> <span x-text="routeLength">-</span> km<br>
+        <strong>Liczba przystanków:</strong> <span x-text="stopCount">-</span><br>
+        <strong>Operator:</strong> <span x-text="agencyName">-</span><br>
+        <strong>Obowiązuje:</strong> <span x-text="printDates"></span>
+      </div>
+      <div class="tab-panel" data-tab="config">
+        <div class="control-group">
+          <label for="font-size-select">Rozmiar czcionki (px):</label>
+          <input id="font-size-select" class="config-input" type="number" min="6" max="20" step="1" x-model.number="fontSize"
+            @input="onFontSizeChange()">
+        </div>
+        <div class="control-group">
+          <label for="print-position-select">Pozycja ramki (druk):</label>
+          <select id="print-position-select" x-model="printPosition" @change="onPrintPositionChange()">
+            <option value="bottom-left">Dół lewo (domyślnie)</option>
+            <option value="bottom-right">Dół prawo</option>
+            <option value="top-left">Góra lewo</option>
+            <option value="top-right">Góra prawo</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="print-preview-checkbox" x-model="printPreview"
+              @change="onPrintPreviewChange()">
+            <span>Pokaż ramkę na ekranie</span>
+          </label>
+        </div>
+        <div class="control-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="stop-labels-checkbox" x-model="showStopLabels"
+              @change="onShowStopLabelsChange()">
+            <span>Pokaż etykiety przystanków</span>
+          </label>
+        </div>
+        <div class="control-group" x-show="currentDirection">
+          <label class="checkbox-label">
+            <input type="checkbox" x-model="engineSoundEnabled" @change="onEngineSoundChange()">
+            <span>Dźwięk silnika</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" x-model="readStopNamesEnabled" @change="onReadStopNamesChange()">
+            <span>Czytaj przystanki</span>
+          </label>
+          <div class="control-group">
+            <label for="ride-speed-select">Prędkość przejazdu:</label>
+            <select id="ride-speed-select" x-model="rideSpeed" @change="onRideSpeedChange()">
+              <option value="fast">Szybko (~3s/przystanek)</option>
+              <option value="slow">Wolno (~6s/przystanek)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="ride-controls control-group" x-show="currentDirection">
+      <div class="ride-btn-row">
+        <button
+          class="ride-btn"
+          :class="{ active: isRiding && !isPaused }"
+          @click="togglePlayPause()" :disabled="!currentDirection">
+          <span x-text="playPauseLabel"></span>
+        </button>
+        <button class="ride-btn-stop" @click="stopRide()" x-show="isRiding || isPaused">
+          ⏹
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Help modal -->
+  <div class="help-modal-overlay" x-show="showHelpModal" x-cloak>
+    <div class="help-modal">
+      <h2>❓ Pomoc</h2>
+      <div class="help-desc">
+        Interaktywna wizualizacja tras komunikacji miejskiej na podstawie danych GTFS.
+        Wybierz linię, kierunek i uruchom przejazd.
+      </div>
+      <div class="keyboard-hint">
+        <strong>Skróty:</strong><br>
+        <kbd>→</kbd> / <kbd>Shift+</kbd><kbd>&gt;</kbd> Następny<br>
+        <kbd>←</kbd> / <kbd>Shift+</kbd><kbd>&lt;</kbd> Poprzedni<br>
+        <kbd>R</kbd> Losuj linię i kierunek<br><br>
+        <strong>Audio:</strong><br>
+        <kbd>Klik</kbd> na przystanek lub etykietę<br><br>
+        <strong>Przejazd:</strong><br>
+        <kbd>Spacja</kbd> Play / Pauza
+      </div>
+      <button class="help-close" @click="showHelpModal = false">Zamknij</button>
+      <div class="help-credits">Dane: GTFS (General Transit Feed Specification)</div>
+    </div>
+  </div>
+
+  <!-- Print info box -->
+  <div class="print-info-box" id="print-info-box" :class="printBoxClasses">
+    <div class="print-header">
+      <span class="route-badge" :class="badgeClass" :style="badgeStyle" x-text="shortName">-</span>
+      <div class="print-route-direction" x-text="printDirectionName">-</div>
+    </div>
+    <div class="print-route-details">
+      <span x-text="stopCount">0</span> przystanków •
+      <span x-text="routeLength">0</span> km
+    </div>
+    <div class="print-route-details" x-text="agencyName">-</div>
+    <div class="print-dates"><strong>Obowiązuje:</strong> <span x-text="printDates">-</span></div>
+  </div>
+
+
+
+</body>
+
+</html>

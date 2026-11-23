@@ -1,0 +1,631 @@
+/* ═══════════════════════════════════════════════════════
+   Zbiorkomapa — main stylesheet
+   Structure: tokens → reset/base → layout → components →
+   responsive → print
+   ═══════════════════════════════════════════════════════ */
+
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@700&family=Roboto&display=swap");
+
+/* ── Design tokens ──────────────────────────────────── */
+:root {
+  /* Spacing scale */
+  --space-sm: 5px;
+  --space-md: 10px;
+  --space-lg: 15px;
+  --radius: 6px;
+
+  /* Brand accent & interactive states */
+  --accent: #2962ff;
+  --accent-soft: #f5f7ff;
+  --accent-active: #e8eeff;
+  --danger: #d70000;
+  --danger-bg: #ffe0e0;
+  --warning: #e65100;
+  --warning-bg: #fff3e0;
+
+  /* Text */
+  --text: #666;
+  --text-strong: #333;
+  --text-muted: #999;
+
+  /* Surfaces */
+  --surface: #fff;
+  --surface-muted: #f5f5f5;
+  --surface-tab: #f1f3f5;
+
+  /* Borders & dividers */
+  --border: #ccc;
+  --border-soft: #e0e0e0;
+  --divider: #eee;
+
+  /* Elevation */
+  --shadow-modal: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+  /* Line / zone colors (data-driven badge palette — names must match JS lookup) */
+  --line-zone-A: #33a864;
+  --line-zone-B: #d70000;
+  --line-zone-C: #e6e600;
+  --line-zone-D: #0b93f6;
+
+  /* Ride animation */
+  --ride-trail-color: var(--accent);
+}
+
+/* ── Reset / base ───────────────────────────────────── */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+[x-cloak] {
+  display: none;
+}
+
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+}
+
+/* ── Layout ─────────────────────────────────────────── */
+#map {
+  flex: 1;
+  min-width: 0;
+}
+
+.info-panel {
+  flex: 0 0 330px;
+  width: 330px;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  padding: var(--space-lg);
+}
+
+/* .panel-scroll is the scrollable region: route-controls + tabs.
+   In landscape only .tabs scrolls (route-controls stays pinned);
+   in portrait the whole block scrolls. */
+.panel-scroll {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  > .route-controls {
+    flex: 0 0 auto;
+  }
+}
+
+/* ── Panel header ───────────────────────────────────── */
+.map-header {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+
+  .header-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+  }
+}
+
+.badge-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.load-spinner {
+  position: absolute;
+  right: -22px;
+  width: 14px;
+  height: 14px;
+  color: var(--text-muted);
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.route-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  &.bus {
+    width: auto;
+    min-width: 44px;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 2px;
+  }
+
+  &.light-bg {
+    border: 1px solid;
+  }
+}
+
+/* ── Controls ───────────────────────────────────────── */
+.route-info {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.route-controls {
+  margin-top: var(--space-sm);
+  padding-top: 0;
+}
+
+.control-group {
+  margin-bottom: var(--space-md);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 3px;
+    color: var(--text);
+  }
+}
+
+.dice-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+
+  svg {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+select,
+.config-input {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+
+  &.config-input {
+    width: 70px;
+  }
+}
+
+/* Ride (play / pause / stop) — pinned footer of the panel */
+.ride-controls {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  flex: 0 0 auto;
+
+  .ride-btn-row {
+    display: flex;
+    gap: var(--space-sm);
+  }
+}
+
+.ride-btn,
+.ride-btn-stop {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--surface-muted);
+
+  &.active {
+    background: var(--warning-bg);
+    border-color: var(--warning);
+  }
+
+  /* ponytail: nested under the shared ride-btn/ride-btn-stop block; the
+     .ride-btn.ride-btn-stop branch never matches (a stop button has no
+     ride-btn class) but the .ride-btn-stop.ride-btn-stop branch does, so
+     the rule works. Kept nested to avoid re-splitting the shared block. */
+  &.ride-btn-stop {
+    flex: 0;
+    padding: 8px 12px;
+    background: var(--danger-bg);
+    border-color: var(--danger);
+  }
+}
+
+/* Checkbox rows */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  margin: 6px 0;
+  cursor: pointer;
+
+  input {
+    width: auto;
+    margin: 0;
+  }
+}
+
+/* Inline action buttons */
+.city-selector-btn,
+.help-btn,
+.dice-btn {
+  font-size: 12px;
+  color: var(--text);
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 2px 0;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+/* ── Help content ───────────────────────────────────── */
+.keyboard-hint {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--divider);
+}
+
+kbd {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-family: monospace;
+  background: var(--surface-muted);
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* ── Map labels & markers ───────────────────────────── */
+.stop-label {
+  background: var(--surface);
+  border: 1px solid #000;
+  padding: 0.01em 0.2em;
+  text-transform: uppercase;
+  font-size: var(--stop-label-font-size, 8px);
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  pointer-events: auto;
+
+  &.ride-active-stop {
+    border-width: 2px;
+    border-color: var(--ride-trail-color);
+  }
+
+  &.on-demand-stop-label {
+    border-style: dotted;
+  }
+
+  &.leaflet-tooltip-left::before {
+    border-left-color: #000;
+  }
+  &.leaflet-tooltip-top::before {
+    border-top-color: #000;
+  }
+  &.leaflet-tooltip-right::before {
+    border-right-color: #000;
+  }
+  &.leaflet-tooltip-bottom::before {
+    border-bottom-color: #000;
+  }
+}
+
+.stop-zone-marker {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 2px solid var(--zone-color, #333);
+  color: var(--zone-color, #333);
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1;
+  box-sizing: border-box;
+  user-select: none;
+  pointer-events: none;
+  transform: translateY(-1px);
+}
+
+.vehicle-icon {
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+}
+
+/* ── Modals ─────────────────────────────────────────── */
+.city-modal-overlay,
+.help-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.city-modal-overlay {
+    z-index: 2000;
+  }
+  &.help-modal-overlay {
+    z-index: 2100;
+  }
+}
+
+.city-modal,
+.help-modal {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 30px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: var(--shadow-modal);
+
+  &.help-modal {
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  h2 {
+    margin: 0 0 var(--space-lg);
+    text-align: center;
+    color: var(--text-strong);
+    font-size: 20px;
+  }
+}
+
+.city-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: var(--space-md);
+  }
+
+  button {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    border: 2px solid var(--border-soft);
+    border-radius: var(--radius);
+    background: var(--surface);
+
+    &:hover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    &.active {
+      border-color: var(--accent);
+      background: var(--accent-active);
+      font-weight: 600;
+    }
+  }
+}
+
+.help-close {
+  display: block;
+  margin: var(--space-lg) auto 0;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface-muted);
+
+  &:hover {
+    background: #e9e9e9;
+  }
+}
+
+.help-desc {
+  font-size: 13px;
+  color: var(--text);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.help-credits {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--divider);
+}
+
+/* ── Tabs (pure CSS radio :checked) ─────────────────── */
+/* .tabs is the scrollable region between the fixed top
+   controls and the pinned bottom ride-controls */
+.tabs {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  margin-top: var(--space-md);
+
+  > input {
+    display: none;
+  }
+
+  .tab-labels {
+    display: flex;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+
+    label {
+      flex: 1;
+      text-align: center;
+      padding: 7px 0;
+      font-size: 13px;
+      cursor: pointer;
+      border-radius: var(--radius);
+      background: var(--surface-tab);
+      color: var(--text);
+    }
+  }
+
+  .tab-panel {
+    display: none;
+  }
+
+  #tab-info:checked ~ [data-tab="info"],
+  #tab-config:checked ~ [data-tab="config"] {
+    display: block;
+  }
+
+  #tab-info:checked ~ .tab-labels label[for="tab-info"],
+  #tab-config:checked ~ .tab-labels label[for="tab-config"] {
+    background: var(--accent);
+    color: var(--surface);
+    font-weight: 600;
+  }
+}
+
+/* ── Print info box ─────────────────────────────────── */
+.print-info-box {
+  position: absolute;
+  bottom: 10mm;
+  left: 10mm;
+  background: var(--surface);
+  border: 2px solid var(--text-strong);
+  padding: var(--space-md) var(--space-lg);
+  font-size: 12px;
+  z-index: 10000;
+
+  &.print-top,
+  &.print-top-left {
+    top: 10mm;
+    bottom: auto;
+  }
+
+  &.print-top-right {
+    top: 10mm;
+    right: 10mm;
+    bottom: auto;
+    left: auto;
+  }
+
+  &.print-bottom-right {
+    right: 10mm;
+    left: auto;
+  }
+
+  .print-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: 5px;
+  }
+
+  .print-route-direction {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 5px;
+  }
+
+  .print-route-details {
+    font-size: 11px;
+    color: var(--text);
+    margin-bottom: 3px;
+  }
+
+  .print-dates {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 5px;
+  }
+}
+
+/* ── Screen-specific visibility ─────────────────────── */
+@media screen {
+  .print-info-box {
+    display: none;
+
+    &.preview-visible {
+      display: block;
+      opacity: 0.7;
+    }
+  }
+}
+
+/* ── Responsive: portrait stacks panel above map ────── */
+@media (max-aspect-ratio: 1/1) {
+  body {
+    flex-direction: column;
+  }
+
+  /* Panel ≤50% of height; map takes the rest (≥50%) */
+  .info-panel {
+    flex: 0 1 auto;
+    max-height: 50%;
+    width: 100%;
+    order: 1;
+  }
+  #map {
+    flex: 1;
+    min-height: 50%;
+    order: 2;
+  }
+
+  /* The whole route-controls + tabs block scrolls in portrait */
+  .panel-scroll {
+    overflow-y: auto;
+  }
+  .tabs {
+    flex: none;
+    overflow: visible;
+  }
+}
+
+/* ── Print ──────────────────────────────────────────── */
+@media print {
+  .info-panel {
+    display: none;
+  }
+  .leaflet-tile-pane {
+    opacity: 0.3;
+  }
+  .leaflet-control-zoom,
+  .leaflet-control-attribution {
+    display: none;
+  }
+  .print-info-box {
+    visibility: visible;
+    page-break-inside: avoid;
+  }
+}

@@ -1,0 +1,1046 @@
+{
+  "routes": [
+    {
+      "route_id": "1831",
+      "short_name": "1",
+      "color": "0070C0",
+      "text_color": "F5F5F5",
+      "type": "TRAM",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 47,
+      "endpoints": [
+        "FieldorfaNila",
+        "Wieprzyce PKP"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "14",
+      "short_name": "2",
+      "color": "00B050",
+      "text_color": "F5F5F5",
+      "type": "TRAM",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Piaski",
+        "Wieprzyce PKP"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "1689",
+      "short_name": "3",
+      "color": "E36C09",
+      "text_color": "282828",
+      "type": "TRAM",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 45,
+      "endpoints": [
+        "FieldorfaNila",
+        "Piaski"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "1895",
+      "short_name": "4",
+      "color": "CCC1D9",
+      "text_color": "282828",
+      "type": "TRAM",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 33,
+      "endpoints": [
+        "Dworzec Główny",
+        "FieldorfaNila"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2800",
+      "short_name": "100",
+      "color": "0070C0",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 6,
+      "total_stops": 113,
+      "endpoints": [
+        "Siedlice Ujęcie Wody",
+        "Os. Staszica",
+        "TPV",
+        "Katedra"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2152",
+      "short_name": "101",
+      "color": "4F6128",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 29,
+      "endpoints": [
+        "Londyńska",
+        "Śląska Pole Golfowe"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "47",
+      "short_name": "102",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 3,
+      "total_stops": 60,
+      "endpoints": [
+        "Śląska Pole Golfowe",
+        "Bogusławskiego",
+        "Dekerta Szpital",
+        "Rondo Górczyńskie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "27",
+      "short_name": "103",
+      "color": "4BACC6",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 8,
+      "total_stops": 163,
+      "endpoints": [
+        "Strażacka",
+        "Słowiańska",
+        "Rondo Szczecińskie",
+        "AWF",
+        "TPV",
+        "Rondo Myśliborskie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "1529",
+      "short_name": "104",
+      "color": "F00000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 7,
+      "total_stops": 148,
+      "endpoints": [
+        "Bora-Komorowskiego",
+        "Słowiańska",
+        "TPV",
+        "Rondo Szczecińskie",
+        "AWF"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2797",
+      "short_name": "105",
+      "color": "7030A0",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 27,
+      "endpoints": [
+        "Cmentarz Brama II",
+        "Londyńska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2381",
+      "short_name": "106",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 32,
+      "endpoints": [
+        "AWF",
+        "Odlewników"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2814",
+      "short_name": "107",
+      "color": "00B050",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 3,
+      "total_stops": 86,
+      "endpoints": [
+        "Drozdowa Ogrody Działkowe",
+        "Działkowców Pętla",
+        "Działkowców"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2241",
+      "short_name": "108",
+      "color": "C0504D",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 75,
+      "endpoints": [
+        "Strażacka",
+        "Os. Staszica",
+        "AWF"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2499",
+      "short_name": "109",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 3,
+      "total_stops": 58,
+      "endpoints": [
+        "Londyńska",
+        "FieldorfaNila",
+        "Szarych Szeregów"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "148",
+      "short_name": "110",
+      "color": "E36C09",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 36,
+      "endpoints": [
+        "Drozdowa Ogrody Działkowe",
+        "Os. Staszica"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "39",
+      "short_name": "111",
+      "color": "008000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 6,
+      "total_stops": 94,
+      "endpoints": [
+        "Śląska Pole Golfowe",
+        "Chwalęcice Kościelna",
+        "Cmentarz Brama II",
+        "Rondo Kos. Gdyńskich",
+        "Katedra"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2798",
+      "short_name": "112",
+      "color": "B48700",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 69,
+      "endpoints": [
+        "Łagodzin",
+        "Os. Staszica",
+        "AWF"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "951",
+      "short_name": "113",
+      "color": "F00000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 10,
+      "total_stops": 188,
+      "endpoints": [
+        "Os. Staszica",
+        "Wawrów Stadion",
+        "Wawrów Sadowa",
+        "TPV",
+        "AWF",
+        "Rondo Sybiraków"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "210",
+      "short_name": "114",
+      "color": "E36C09",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 31,
+      "endpoints": [
+        "Bora-Komorowskiego",
+        "Rondo Sybiraków"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2716",
+      "short_name": "116",
+      "color": "E36C09",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 42,
+      "endpoints": [
+        "Os. Staszica",
+        "Strażacka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "1164",
+      "short_name": "117",
+      "color": "7030A0",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 48,
+      "endpoints": [
+        "AWF",
+        "Małyszyńska",
+        "Chróścik"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2259",
+      "short_name": "119",
+      "color": "D60093",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 8,
+      "total_stops": 80,
+      "endpoints": [
+        "Zajezdnia Kostrzyńska",
+        "Chróścik",
+        "Chróścik INNEKO",
+        "Małyszyńska",
+        "TPV"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2707",
+      "short_name": "120",
+      "color": "5F497A",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 3,
+      "total_stops": 33,
+      "endpoints": [
+        "Odlewników",
+        "AWF",
+        "Rondo Szczecińskie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2249",
+      "short_name": "121",
+      "color": "E36C09",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 43,
+      "endpoints": [
+        "Śląska Pole Golfowe",
+        "TPV"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "420",
+      "short_name": "122",
+      "color": "00B0F0",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 13,
+      "total_stops": 188,
+      "endpoints": [
+        "Os. Staszica",
+        "Janice",
+        "Czechów",
+        "Wawrów Dolny",
+        "AWF",
+        "Czechów SARRIS DARM"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2242",
+      "short_name": "123",
+      "color": "FF1493",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 48,
+      "endpoints": [
+        "Bora-Komorowskiego",
+        "TPV"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "9",
+      "short_name": "124",
+      "color": "7030A0",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 6,
+      "total_stops": 131,
+      "endpoints": [
+        "Os. Staszica",
+        "Jedwabnicza Park Handlowy",
+        "Prefadom",
+        "Staszica",
+        "Jagiełły"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "6",
+      "short_name": "125",
+      "color": "974806",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 87,
+      "endpoints": [
+        "Dekerta Szpital",
+        "Śląska Pole Golfowe",
+        "Jagiełły",
+        "Katedra"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "11",
+      "short_name": "126",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 6,
+      "total_stops": 101,
+      "endpoints": [
+        "Dekerta Szpital",
+        "Os. Staszica",
+        "TPV",
+        "AWF",
+        "Rondo Myśliborskie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2801",
+      "short_name": "127",
+      "color": "974806",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 5,
+      "total_stops": 86,
+      "endpoints": [
+        "Os. Staszica",
+        "Kasprzaka Terminal",
+        "Łagodzin",
+        "AWF"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2227",
+      "short_name": "130",
+      "color": "938953",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 7,
+      "total_stops": 107,
+      "endpoints": [
+        "AWF",
+        "Baczyna",
+        "Stanowice",
+        "Rondo Małyszyńskie",
+        "Rondo Szczecińskie"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2706",
+      "short_name": "131",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 87,
+      "endpoints": [
+        "AWF",
+        "Baczyna",
+        "Stanowice"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2868",
+      "short_name": "132",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 31,
+      "endpoints": [
+        "Bora-Komorowskiego",
+        "Cmentarz Brama II"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2285",
+      "short_name": "134",
+      "color": "F00000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 67,
+      "endpoints": [
+        "Dekerta Szpital",
+        "Strażacka"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "360",
+      "short_name": "135",
+      "color": "F00000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 71,
+      "endpoints": [
+        "Dekerta Szpital",
+        "Małyszyńska",
+        "Rondo Myśliborskie",
+        "GLS"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "1373",
+      "short_name": "136",
+      "color": "00CED1",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 3,
+      "total_stops": 56,
+      "endpoints": [
+        "Małyszyńska",
+        "Śląska Pole Golfowe",
+        "Krzywoustego"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2541",
+      "short_name": "201",
+      "color": "974806",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 59,
+      "endpoints": [
+        "Jezioro Nierzym",
+        "Londyńska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "410",
+      "short_name": "401",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 3,
+      "total_stops": 32,
+      "endpoints": [
+        "Zajezdnia Kostrzyńska",
+        "Śląska Pole Golfowe",
+        "Katedra"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2232",
+      "short_name": "402",
+      "color": "953734",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 2,
+      "total_stops": 20,
+      "endpoints": [
+        "Os. Staszica",
+        "Zajezdnia Kostrzyńska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2140",
+      "short_name": "510",
+      "color": "0070C0",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 124,
+      "endpoints": [
+        "Zajezdnia Kostrzyńska",
+        "Rondo Kos. Gdyńskich",
+        "Dworcowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2699",
+      "short_name": "511",
+      "color": "E36C09",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 4,
+      "total_stops": 109,
+      "endpoints": [
+        "Zajezdnia Kostrzyńska",
+        "Krótka",
+        "Londyńska",
+        "Dworcowa"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2698",
+      "short_name": "512",
+      "color": "00B0F0",
+      "text_color": "282828",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 3,
+      "total_stops": 75,
+      "endpoints": [
+        "Zajezdnia Kostrzyńska",
+        "Krótka",
+        "Londyńska"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "1374",
+      "short_name": "Doj",
+      "color": "000000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 17,
+      "total_stops": 34,
+      "endpoints": [
+        "Zajezdnia Kostrzyńska",
+        "AWF",
+        "Os. Staszica",
+        "Londyńska",
+        "Rondo Szczecińskie",
+        "Śląska Pole Golfowe",
+        "Katedra",
+        "Bora-Komorowskiego",
+        "Rondo Myśliborskie",
+        "Słowiańska",
+        "Rondo Małyszyńskie",
+        "Działkowców",
+        "Jagiełły",
+        "Krzywoustego",
+        "Dekerta Szpital",
+        "GLS"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "90",
+      "short_name": "DojT",
+      "color": "000000",
+      "text_color": "F5F5F5",
+      "type": "TRAM",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 1,
+      "total_stops": 2,
+      "endpoints": [
+        "Wieprzyce PKP",
+        "zajezdnia"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "2154",
+      "short_name": "Tech",
+      "color": "000000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 46,
+      "total_stops": 94,
+      "endpoints": [
+        "Londyńska",
+        "Os. Staszica",
+        "Słowiańska",
+        "AWF",
+        "Bora-Komorowskiego",
+        "FieldorfaNila",
+        "Śląska Pole Golfowe",
+        "Dekerta Szpital",
+        "Małyszyńska",
+        "TPV",
+        "Dworcowa",
+        "Cmentarz Brama II",
+        "Staszica",
+        "Bogusławskiego",
+        "Katedra",
+        "Odlewników",
+        "Rondo Górczyńskie",
+        "Rondo Myśliborskie",
+        "Rondo Sybiraków",
+        "Rondo Szczecińskie",
+        "Szarych Szeregów"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "478",
+      "short_name": "Zj",
+      "color": "000000",
+      "text_color": "F5F5F5",
+      "type": "BUS",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 14,
+      "total_stops": 29,
+      "endpoints": [
+        "Zajezdnia Kostrzyńska",
+        "Os. Staszica",
+        "AWF",
+        "Rondo Szczecińskie",
+        "Londyńska",
+        "Śląska Pole Golfowe",
+        "Słowiańska",
+        "Bora-Komorowskiego",
+        "Jagiełły",
+        "Staszica",
+        "Rondo Myśliborskie",
+        "Dekerta Szpital",
+        "FieldorfaNila",
+        "Katedra"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    },
+    {
+      "route_id": "122",
+      "short_name": "ZjT",
+      "color": "000000",
+      "text_color": "F5F5F5",
+      "type": "TRAM",
+      "agency_name": "MZK Gorzów",
+      "direction_count": 1,
+      "total_stops": 2,
+      "endpoints": [
+        "Wieprzyce PKP",
+        "zajezdnia"
+      ],
+      "feed_info": {
+        "feed_start_date": "20260801",
+        "feed_end_date": "20260831",
+        "feed_publisher_name": "Miejski Zakład Komunikacji w Gorzowie Wielkopolskim Sp. z o.o.",
+        "feed_publisher_url": "http://www.mzk-gorzow.com.pl/"
+      }
+    }
+  ],
+  "map_center": [
+    52.735306935218404,
+    15.231320124091484
+  ]
+}
